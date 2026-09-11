@@ -1,0 +1,15 @@
+{
+  "name": "responsive-page",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

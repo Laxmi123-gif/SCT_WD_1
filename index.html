@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase - Online Shopping</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                Shop<span>Ease</span>
+            </a>
+
+            <!-- Navigation links -->
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link active">Home</a>
+
+                <a href="#categories" class="nav-link">
+                    Categories
+                </a>
+
+                <a href="#products" class="nav-link">
+                    Products
+                </a>
+
+                <a href="#deals" class="nav-link">
+                    Deals
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- Right side icons -->
+            <div class="nav-actions">
+
+                <!-- Search -->
+                <button class="icon-btn" id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <!-- Wishlist -->
+                <button class="icon-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <!-- Cart -->
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span id="cartCount">0</span>
+                </button>
+
+                <!-- Mobile menu -->
+                <button class="menu-btn" id="menuBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Search box -->
+        <div class="search-container" id="searchContainer">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search products...">
+
+            <button id="closeSearch">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <!-- Hero text -->
+                <div class="hero-content">
+
+                    <p class="small-heading">
+                        NEW COLLECTION 2026
+                    </p>
+
+                    <h1>
+                        Find Your
+                        <span>Perfect Style</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Discover the latest fashion, electronics,
+                        accessories and lifestyle products at
+                        amazing prices.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#products" class="primary-btn">
+                            Shop Now
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#categories" class="secondary-btn">
+                            Explore Categories
+                        </a>
+
+                    </div>
+
+                    <!-- Small statistics -->
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>10K+</strong>
+                            <span>Products</span>
+                        </div>
+
+                        <div>
+                            <strong>5K+</strong>
+                            <span>Customers</span>
+                        </div>
+
+                        <div>
+                            <strong>4.8</strong>
+                            <span>Rating</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero image -->
+                <div class="hero-image">
+
+                    <div class="discount-badge">
+                        <strong>30%</strong>
+                        <span>OFF</span>
+                    </div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
+                        alt="Shopping store">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories section" id="categories">
+
+            <div class="section-heading">
+
+                <div>
+                    <p>SHOP BY CATEGORY</p>
+
+                    <h2>
+                        Explore Our Categories
+                    </h2>
+                </div>
+
+                <a href="#products">
+                    View All
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+
+                    <h3>Fashion</h3>
+
+                    <p>120+ Products</p>
+                </div>
+
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+
+                    <h3>Electronics</h3>
+
+                    <p>200+ Products</p>
+                </div>
+
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                    </div>
+
+                    <h3>Footwear</h3>
+
+                    <p>150+ Products</p>
+                </div>
+
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+
+                    <h3>Home</h3>
+
+                    <p>180+ Products</p>
+                </div>
+
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-ring"></i>
+                    </div>
+
+                    <h3>Accessories</h3>
+
+                    <p>90+ Products</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products section" id="products">
+
+            <div class="section-heading">
+
+                <div>
+                    <p>OUR PRODUCTS</p>
+
+                    <h2>
+                        Trending Products
+                    </h2>
+                </div>
+
+                <div class="product-filter">
+
+                    <button class="filter-btn active-filter">
+                        All
+                    </button>
+
+                    <button class="filter-btn">
+                        Fashion
+                    </button>
+
+                    <button class="filter-btn">
+                        Electronics
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            NEW
+                        </span>
+
+                        <button class="heart-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                            alt="Smart watch">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Electronics
+                        </p>
+
+                        <h3>Smart Watch Pro</h3>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(124)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹2,499
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Smart Watch Pro">
+
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product 2 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-tag sale">
+                            -25%
+                        </span>
+
+                        <button class="heart-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                            alt="Running shoes">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Footwear
+                        </p>
+
+                        <h3>Urban Running Shoes</h3>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(98)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹1,899
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Urban Running Shoes">
+
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product 3 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            POPULAR
+                        </span>
+
+                        <button class="heart-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+                            alt="Fashion jacket">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Fashion
+                        </p>
+
+                        <h3>Classic Denim Jacket</h3>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(76)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹1,299
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Classic Denim Jacket">
+
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product 4 -->
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-tag sale">
+                            -20%
+                        </span>
+
+                        <button class="heart-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+                            alt="Headphones">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Electronics
+                        </p>
+
+                        <h3>Wireless Headphones</h3>
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(215)</span>
+                        </div>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ₹2,199
+                            </strong>
+
+                            <button
+                                class="add-cart"
+                                data-product="Wireless Headphones">
+
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DEAL SECTION ================= -->
+
+        <section class="deal-section" id="deals">
+
+            <div class="deal-content">
+
+                <p>LIMITED TIME OFFER</p>
+
+                <h2>
+                    Summer Sale
+                    <br>
+                    Up To <span>50% OFF</span>
+                </h2>
+
+                <p>
+                    Grab your favorite products before
+                    the offer ends.
+                </p>
+
+                <a href="#products" class="primary-btn">
+                    Shop Deals
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="deal-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
+                    alt="Shopping sale">
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features section">
+
+            <div class="feature">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <div>
+                    <h3>Free Delivery</h3>
+                    <p>On orders above ₹499</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <div>
+                    <h3>Secure Payment</h3>
+                    <p>100% secure checkout</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <i class="fa-solid fa-rotate-left"></i>
+
+                <div>
+                    <h3>Easy Returns</h3>
+                    <p>7 day return policy</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <div>
+                    <h3>24/7 Support</h3>
+                    <p>We're here to help</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+
+                <a href="#home" class="logo">
+                    Shop<span>Ease</span>
+                </a>
+
+                <p>
+                    Your everyday shopping destination
+                    for quality products at great prices.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Company</h3>
+
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Help</h3>
+
+                <a href="#">FAQ</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Newsletter</h3>
+
+                <p>
+                    Subscribe for latest offers.
+                </p>
+
+                <div class="newsletter">
+
+                    <input
+                        type="email"
+                        placeholder="Your email">
+
+                    <button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 ShopEase. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
